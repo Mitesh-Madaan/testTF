@@ -1,19 +1,19 @@
 variable "file1Name" {
 	type = string
-	description = "Name of env's file1"
+	description = "test1.txt"
 }
 
 variable "file1Content" {
 	type = string
-	description = "Content of env's file1"
+	description = "This is test file1\n"
 }
 
 variable "file2Name" {
 	type = string
-	description = "Name of env's file2"
+	description = "test2.txt"
 }
 
 variable "file2Content" {
 	type = string
-	description = "Content of env's file2"
+	description = "This is test file2\n"
 }
