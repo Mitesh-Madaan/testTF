@@ -7,7 +7,7 @@ variable "file1Name" {
 variable "file1Content" {
         type = string
         description = "Content of env's file1"
-	default = "test default content file1"
+	default = "test default content file1\n"
 }
 
 variable "file2Name" {
