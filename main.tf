@@ -1,4 +1,4 @@
-resource "local_sensitive_file" "File1" {
+resource "local_file" "File1" {
 filename = var.file1Name
 content = var.file1Content
 }
